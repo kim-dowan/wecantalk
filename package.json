@@ -1,0 +1,28 @@
+{
+  "name": "wecantalk-application",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "expo": "~49.0.15",
+    "expo-camera": "~13.4.4",
+    "expo-constants": "~14.4.2",
+    "expo-screen-orientation": "~6.0.6",
+    "expo-status-bar": "~1.6.0",
+    "git": "^0.1.5",
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-native-orientation": "^3.1.3",
+    "react-native-orientation-locker": "^1.5.0",
+    "react-native-webview": "13.2.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

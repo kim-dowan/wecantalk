@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "WeCanTalk",
+    "slug": "wecantalk-application",
+    "version": "1.0.0",
+    "orientation": "LANDSCAPE",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.Chutzpah.WeCanTalk",
+      "buildNumber": "1.0.0",
+      "requireFullScreen": true,
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.Chutzpah.WeCanTalk",
+      "versionCode": 1,
+      "requireFullScreen": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-screen-orientation",
+        {
+          "initialOrientation": "LANDSCAPE"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "17b12c20-b3f3-4aa1-abc0-e4ba0b27e5f8"
+      }
+    }
+  }
+}
